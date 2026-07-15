@@ -1118,8 +1118,21 @@ a {
     width: calc(100% - 1.5rem);
   }
 
+  .hero-gallery__intro {
+    display: grid;
+    justify-items: center;
+    gap: 0.95rem;
+  }
+
+  .hero-gallery__eyebrow,
+  .hero-gallery__date {
+    line-height: 1.35;
+  }
+
   .hero-gallery__intro h1 {
+    margin: 0;
     font-size: clamp(2.85rem, 13.5vw, 5rem);
+    line-height: 1.05;
   }
 
   .scroll-cue {

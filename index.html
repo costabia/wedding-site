@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Celebre o casamento de Ana e Pedro e descubra um pouco da nossa história."
+    />
+    <title>Ana e Pedro — Nosso casamento</title>
+    <link rel="preload" href="assets/hero-main-window.jpg" as="image" type="image/jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="hero-gallery" id="inicio" aria-labelledby="couple-name">
+        <div class="hero-gallery__sticky">
+          <figure class="hero-gallery__main" aria-label="Paisagem de montanhas vista pela janela">
+            <img
+              src="assets/hero-main-window.jpg"
+              width="1536"
+              height="1025"
+              alt="Paisagem de montanhas e campo verde vista por uma janela aberta"
+              fetchpriority="high"
+            />
+            <span class="hero-gallery__shade" aria-hidden="true"></span>
+          </figure>
+
+          <figure class="memory memory--left-top" aria-hidden="true">
+            <img src="assets/gallery-left-top.webp" width="4000" height="6000" alt="" decoding="async" />
+          </figure>
+          <figure class="memory memory--left-middle" aria-hidden="true">
+            <img src="assets/gallery-left-middle.webp" width="2779" height="4071" alt="" decoding="async" />
+          </figure>
+          <figure class="memory memory--left-bottom" aria-hidden="true">
+            <img src="assets/gallery-left-bottom.webp" width="4000" height="6000" alt="" decoding="async" />
+          </figure>
+          <figure class="memory memory--center-top" aria-hidden="true">
+            <img src="assets/gallery-center-top.webp" width="4000" height="6000" alt="" decoding="async" />
+          </figure>
+          <figure class="memory memory--center-bottom" aria-hidden="true">
+            <img src="assets/gallery-center-bottom.webp" width="4000" height="6000" alt="" decoding="async" />
+          </figure>
+          <figure class="memory memory--right-top" aria-hidden="true">
+            <img src="assets/gallery-right-top.webp" width="4000" height="6000" alt="" decoding="async" />
+          </figure>
+          <figure class="memory memory--right-middle" aria-hidden="true">
+            <img src="assets/gallery-right-middle.webp" width="4000" height="6000" alt="" decoding="async" />
+          </figure>
+          <figure class="memory memory--right-bottom" aria-hidden="true">
+            <img src="assets/gallery-right-bottom.webp" width="2779" height="4071" alt="" decoding="async" />
+          </figure>
+
+          <header class="site-header">
+            <a class="site-header__mark" href="#inicio" aria-label="Voltar ao início">
+              <img src="assets/logoo.svg" width="173" height="204" alt="Monograma dos noivos" />
+            </a>
+            <nav class="site-header__nav" aria-label="Navegação principal">
+              <a href="#perguntas">Perguntas</a>
+              <a class="site-header__rsvp" href="mailto:confirmacao@example.com">RSVP</a>
+            </nav>
+          </header>
+
+          <div class="hero-gallery__intro">
+            <p class="hero-gallery__eyebrow">Nós vamos nos casar</p>
+            <h1 id="couple-name">Rafaela e Carlos</h1>
+            <p class="hero-gallery__date">12 · 09 · 2026</p>
+          </div>
+
+          <div class="hero-gallery__logo" aria-hidden="true">
+            <img src="assets/logoo.svg" width="173" height="204" alt="" />
+          </div>
+
+          <div class="scroll-cue" aria-hidden="true">
+            <span>Continue rolando</span>
+            <span class="scroll-cue__line"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="after-hero" aria-labelledby="story-title">
+        <h2 class="reveal-copy" id="story-title">
+          Convidamos você a fazer parte deste momento tão especial, começando por conhecer a...
+        </h2>
+      </section>
+
+      <section class="story-stack" id="nossa-historia" aria-labelledby="history-title">
+        <div class="story-stack__sticky">
+          <div class="story-stack__heading">
+            <p>Capítulo um</p>
+            <h2 id="history-title">Nossa história</h2>
+            <span aria-hidden="true">Continue rolando</span>
+          </div>
+
+          <div class="story-stack__stage" aria-label="Memórias da nossa história">
+            <figure class="polaroid">
+              <img
+                src="assets/story-polaroid-01.webp"
+                width="1025"
+                height="820"
+                alt="Casal abraçado sob os galhos de uma árvore"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>1: nosso início em 2016</figcaption>
+            </figure>
+            <figure class="polaroid">
+              <img
+                src="assets/story-polaroid-02.webp"
+                width="1182"
+                height="778"
+                alt="Casal sentado junto enquanto observa uma paisagem ao pôr do sol"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>2: nossa primeira viagem</figcaption>
+            </figure>
+            <figure class="polaroid">
+              <img
+                src="assets/story-polaroid-03.webp"
+                width="464"
+                height="580"
+                alt="Casal caminhando de mãos dadas por um campo"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>3: nossa primeira conquista</figcaption>
+            </figure>
+            <figure class="polaroid">
+              <img
+                src="assets/story-polaroid-04.webp"
+                width="389"
+                height="581"
+                alt="Casal brincando diante de uma cachoeira"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>4: nossa viagem de noivado</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="countdown-section" id="data" aria-labelledby="countdown-title">
+        <div class="countdown-section__content">
+          <p class="countdown-section__kicker" id="countdown-title">Então junte-se a nós em</p>
+          <time class="wedding-date" datetime="2026-09-12">12 de setembro de 2026</time>
+
+          <div class="countdown" role="timer" aria-live="off" aria-label="Contagem regressiva para o casamento">
+            <div class="countdown__unit">
+              <strong data-countdown="days">00</strong>
+              <span>Dias</span>
+            </div>
+            <div class="countdown__unit">
+              <strong data-countdown="hours">00</strong>
+              <span>Horas</span>
+            </div>
+            <div class="countdown__unit">
+              <strong data-countdown="minutes">00</strong>
+              <span>Minutos</span>
+            </div>
+            <div class="countdown__unit">
+              <strong data-countdown="seconds">00</strong>
+              <span>Segundos</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="venue-section" id="local" aria-labelledby="venue-title">
+        <div class="venue-section__image" aria-hidden="true">
+          <picture>
+            <source
+              srcset="assets/venue-fazenda-santa-ines-mobile.png"
+              media="(max-width: 760px)"
+              width="1249"
+              height="899"
+            />
+            <img
+              src="assets/venue-fazenda-santa-ines.png"
+              width="2048"
+              height="996"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
+        </div>
+
+        <div class="venue-section__content">
+          <p class="venue-section__eyebrow">Nosso encontro será na</p>
+          <h2 id="venue-title">FAZENDA SANTA INÊS</h2>
+          <p>Estrada Itatiba - Valinhos</p>
+          <a
+            class="venue-section__button"
+            href="https://www.google.com/maps/search/?api=1&query=Fazenda%20Santa%20In%C3%AAs%20Estrada%20Itatiba%20Valinhos"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Como chegar
+          </a>
+        </div>
+      </section>
+
+      <section class="ceremony-note" aria-labelledby="ceremony-note-title">
+        <div class="ceremony-note__card">
+          <h2 class="reveal-copy" id="ceremony-note-title">
+            Daremos início às 16h, contamos com você para esse momento tão especial
+          </h2>
+          <a class="ceremony-note__button" href="mailto:confirmacao@example.com">
+            Confirme sua presença aqui
+          </a>
+        </div>
+      </section>
+
+      <section class="questions-section" id="perguntas" aria-labelledby="questions-title">
+        <div class="questions-section__inner">
+          <p class="questions-section__eyebrow">Perguntas</p>
+          <h2 id="questions-title">Para se preparar com carinho</h2>
+
+          <div class="accordion" data-accordion>
+            <details class="accordion__item">
+              <summary>Qual o dress code?</summary>
+              <div class="accordion__content">
+                <p>
+                  Passeio completo. Mulheres com vestidos longos ou midi e salto grosso para andar na grama com conforto. Homens com terno ou costume, com ou sem gravata.
+                </p>
+              </div>
+            </details>
+
+            <details class="accordion__item">
+              <summary>Qual será a cor das madrinhas?</summary>
+              <div class="accordion__content">
+                <p>
+                  Para mantermos as cores personalizadas, as madrinhas usarão fúcsia ou marsala. Os homens usarão terno cinza médio e gravata marsala. A cor da noiva será branco, então pedimos que evitem tons claros e off white.
+                </p>
+              </div>
+            </details>
+
+            <details class="accordion__item">
+              <summary>Onde posso comprar os presentes?</summary>
+              <div class="accordion__content">
+                <p>Preparamos uma lista especial para quem quiser nos presentear.</p>
+                <a class="questions-section__button" href="#">Lista de presentes</a>
+              </div>
+            </details>
+
+            <details class="accordion__item">
+              <summary>Onde posso me hospedar?</summary>
+              <div class="accordion__content">
+                <ul class="questions-list">
+                  <li>Blue Tree Towers Valinhos</li>
+                  <li>Vinhedo Plaza Hotel</li>
+                  <li>Intercity Vinhedo</li>
+                </ul>
+              </div>
+            </details>
+
+            <details class="accordion__item">
+              <summary>Salões de beleza e cabelo?</summary>
+              <div class="accordion__content">
+                <ul class="questions-list">
+                  <li><a href="https://www.instagram.com/explore/search/keyword/?q=salao%20beleza%20itatiba" target="_blank" rel="noreferrer">Opções em Itatiba</a></li>
+                  <li><a href="https://www.instagram.com/explore/search/keyword/?q=makeup%20itatiba" target="_blank" rel="noreferrer">Maquiagem em Itatiba</a></li>
+                  <li><a href="https://www.instagram.com/explore/search/keyword/?q=salao%20beleza%20valinhos" target="_blank" rel="noreferrer">Opções em Valinhos</a></li>
+                  <li><a href="https://www.instagram.com/explore/search/keyword/?q=penteado%20valinhos" target="_blank" rel="noreferrer">Cabelo e penteado em Valinhos</a></li>
+                </ul>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-photo" aria-label="Mensagem final dos noivos">
+        <img
+          src="assets/gallery-left-bottom.webp"
+          width="1170"
+          height="780"
+          alt="Casal em um momento especial ao ar livre"
+          loading="lazy"
+          decoding="async"
+        />
+        <h2>Esperamos por você</h2>
+      </section>
+    </main>
+  </body>
+</html>

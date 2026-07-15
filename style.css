@@ -1131,8 +1131,8 @@ a {
 
   .hero-gallery__intro h1 {
     margin: 0;
-    font-size: clamp(2.85rem, 13.5vw, 3rem);
-    line-height: 0.9;
+      font-size: clamp(1rem, 13.5vw, 2.5rem);
+      line-height: 3;
   }
 
   .scroll-cue {
